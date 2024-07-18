@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Playfair+Display:wght@400;700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap");
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    height: 100vh;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Playfair Display', serif;
+}
+
+section {
+    height: 100%;
+    background: #CE3441;
+    background: linear-gradient(135deg, #CE3441, #0B7E61);
+    padding: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.col-lg-4 {
+    width: 33.33%;
+    min-height: 500px;
+    margin: 0 20px;
+    padding: 5px;
+}
+
+.card {
+    position: relative;
+    border-radius: 20px;
+    width: 100%;
+    height: 500px;
+    overflow: hidden;
+    box-shadow: 5px 5px 15px -5px black;
+}
+
+.card img {
+    position: absolute;
+    transition: 0.5s ease-in-out;
+    filter: grayscale(0.6);
+}
+
+.card:hover img{
+    transform: scale(1.1);
+    filter: grayscale(0);
+}
+
+.card .text-area {
+    position: absolute;
+    bottom: -100%;
+    color: white;
+    padding: 10px;
+    transition: .8s ease-in-out;
+}
+
+.card .bg-black{
+    background: linear-gradient(180deg,transparent,rgba(0, 0, 0, 0.767),black);
+    border-radius: 20px;
+}
+
+.card:hover .text-area{
+    position: absolute;
+    bottom: 0;
+}
+
+.card .text-area h1{
+    text-transform: uppercase;
+    margin-bottom: 5px;
+    text-shadow: 1px 1px 3px black;
+}
+
+.card .text-area p {
+    font-size: 14px;
+    letter-spacing: .5px;
+    font-family: "Poppins", sans-serif;
+}
