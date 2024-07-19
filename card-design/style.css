@@ -53,7 +53,7 @@ section {
     filter: grayscale(0.6);
 }
 
-.card:hover img{
+.card:hover img {
     transform: scale(1.1);
     filter: grayscale(0);
 }
@@ -66,17 +66,17 @@ section {
     transition: .8s ease-in-out;
 }
 
-.card .bg-black{
-    background: linear-gradient(180deg,transparent,rgba(0, 0, 0, 0.767),black);
+.card .bg-black {
+    background: linear-gradient(180deg, transparent, rgba(0, 0, 0, 0.767), black);
     border-radius: 20px;
 }
 
-.card:hover .text-area{
+.card:hover .text-area {
     position: absolute;
     bottom: 0;
 }
 
-.card .text-area h1{
+.card .text-area h1 {
     text-transform: uppercase;
     margin-bottom: 5px;
     text-shadow: 1px 1px 3px black;
