@@ -1,0 +1,198 @@
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+}
+
+body{
+font-family:"arial",sans-serif;
+}
+
+
+a{
+text-decoration:none;
+}
+
+#main{
+width:100%;
+min-height:100vh;
+background-image: radial-gradient( circle 610px at 5.2% 7.2%,  rgba(37,89,222,1) 0%, rgba(37,89,222,1) 7.5%, rgba(4,4,29,1) 44.7% );
+}
+
+header{
+position:fixed;
+left:10%;
+top:0;
+width:80%;
+height:10vh;
+display:flex;
+margin:10px;
+background:#1F487E90;
+align-items:center;
+justify-content:space-between;
+padding:30px;
+border-radius:40px;
+}
+
+
+
+
+header .nav-logo h1{
+font-size:1.5rem;
+text-transform:uppercase;
+color:#FB3640
+}
+
+header .nav-logo h1 span{
+color:white;
+font-weight:500
+}
+
+header nav{
+display:flex;
+gap:2rem;
+}
+
+header nav a{
+color:white;
+text-transform:uppercase;
+font-weight:600;
+font-size:0.9rem;
+}
+
+header .nav-btn button{
+padding:8px 18px;
+border:none;
+border-radius:20px;
+box-shadow:4px 4px 5px -8px black,4px 4px 5px -8px black inset;
+cursor:pointer;
+}
+
+
+
+
+
+
+
+
+section{
+width:100%;
+min-height:100vh;
+display:flex;
+align-items:center;
+justify-content:center;
+flex-direction:column;
+gap:2rem;
+}
+
+section h4{
+color:white;
+text-transform:uppercase;
+letter-spacing:5px;
+font-size:1.1rem;
+border:1px solid white;
+border-radius:20px;
+padding:6px 20px;
+box-shadow:4px 4px 16px -5px #FB3640;
+}
+
+section h1{
+text-align:center;
+width:40%;
+color:#FB3640;
+text-transform:uppercase;
+font-size:2.3rem;
+}
+
+
+.cards-section{
+padding:30px 60px;
+color:white;
+width:100%;
+min-height:100vh;
+display:flex;
+align-items:center;
+justify-content:center;
+flex-wrap:wrap;
+gap:3rem;
+}
+
+.card{
+width:25vw;
+height:fit-content;
+flex-shrink:0;
+background-color:#B9D6F260;
+padding:10px;
+border-radius:10px;
+color:black;
+transition:0.2s all ease-in-out;
+}
+
+.card:hover{
+background-color:#B9D6F2;
+}
+
+
+
+
+.card img{
+width:100%;
+height:100%;
+border-radius:10px;
+}
+
+.card .card-text{
+padding:10px;
+display:flex;
+flex-direction:column;
+gap:3px;
+}
+
+.card .card-text button{
+padding:8px 15px;
+width:120px;
+border:none;
+border-radius:10px;
+background:#000;
+color:#fff;
+transition:0.3s all ease-in-out;
+cursor:pointer
+}
+
+.card .card-text button:hover{
+padding:8px 15px;
+width:120px;
+border:none;
+border-radius:10px;
+background:#fff;
+color:#000;
+}
+
+
+
+
+footer{
+width:100%;
+min-height:50px;
+background:#ffffff;
+display:flex;
+flex-direction:column;
+gap:1rem;
+padding:20px 60px;
+}
+
+footer .divider{
+width:100%;
+height:2px;
+background:#000;
+}
+
+footer .sub-footer{
+display:flex;
+justify-content:space-between;
+}
+
+footer .sub-footer p{
+font-size:0.9rem;
+}
+
